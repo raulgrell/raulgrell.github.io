@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://www.raulgrell.com">raulgrell.com</a> for more information</p>
+	<p>Check my <a href="https://github.com/raulgrell/">Github</a> for more projects</p>
 </footer>
 
 <style>
