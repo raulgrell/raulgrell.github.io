@@ -1,28 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+		<meta http-equiv="content-security-policy" content=""><title>Home</title><meta name="description" content="Svelte demo app" data-svelte="svelte-t32ptj">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-6a43f70b.css">
+	<link rel="stylesheet" href="/_app/assets/pages/about.svelte-35c2aecc.css">
+	<link rel="modulepreload" href="/_app/start-5f0622c5.js">
+	<link rel="modulepreload" href="/_app/chunks/index-0a1e5588.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-1dee0029.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-12a16d76.js">
+	</head>
+	<body>
+		<div id="svelte">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Raul Leal</title>
-  <link rel="stylesheet" href="simple.css">
-  <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-  <div class="container">
-    <div>
-      <h1>Raul Grell Cartolano Leal</h1>
-      <h3>IT Consultant - Software Developer</h3>
-      <h2>Projects:</h2>
-      <div><a href="https://github.com/raulgrell/zox">Zox</a></div>
-      <div><a href="https://github.com/raulgrell/tick">Tick</a></div>
-      <div><a href="https://github.com/raulgrell/tetris">Tetris</a></div>
-      <div><a href="https://github.com/raulgrell/advent">Advent</a></div>
-      <div><a href="https://github.com/ziglang/zig">Zig</a></div>
-    </div>
-  </div>
-</body>
+<header class="svelte-pzmauc"><nav class="svelte-pzmauc"><ul class="svelte-pzmauc"><li class="svelte-pzmauc active"><a sveltekit:prefetch href="/" class="svelte-pzmauc">Home</a></li>
+			<li class="svelte-pzmauc"><a sveltekit:prefetch href="/about" class="svelte-pzmauc">About</a></li></ul></nav>
+</header>
 
+<main class="svelte-gtsv48">
+
+<section class="container svelte-id886t"><h1 class="svelte-id886t">Raul Grell Cartolano Leal</h1>
+	<h2 class="subtitle">IT Consultant - Software Developer</h2>
+
+	<h3>Projects:</h3>
+	<div><a href="https://github.com/raulgrell/zox">Zox</a> - A programming language
+		implemented with a bytecode compiler
+	</div>
+	<div><a href="https://github.com/raulgrell/tetris">Tetris</a> - A WASM port of
+		andrewrk/tetris, written in Zig
+	</div>
+	<div><a href="https://github.com/raulgrell/advent">Advent</a> - Solving the advent
+		of code in Zig
+	</div>
+	<div><a href="https://github.com/raulgrell/tick">Tick</a> - An quick foray into
+		designing a game development library
+	</div>
+	<div><a href="https://buas.itch.io/warfair">WarFair</a> - A turn-based strategy
+		game featuring a creazy clowns
+	</div>
+	<div><a href="https://github.com/raulgrell/raulgrell.github.io">This</a> - Using
+		Svelte as a static site generator
+	</div>
+
+	<h3>Interests:</h3>
+	<div><a href="https://github.com/ziglang/zig">Zig</a></div>
+	<div><a href="https://github.com/ziglang/zig">WASM</a></div>
+	<div><a href="https://github.com/ziglang/zig">Dat</a></div>
+</section></main>
+
+<footer class="svelte-gtsv48"><p>visit <a href="https://www.raulgrell.com" class="svelte-gtsv48">raulgrell.com</a> for more information</p>
+</footer>
+
+
+		<script type="module" data-hydrate="1kim8w4">
+		import { start } from "/_app/start-5f0622c5.js";
+		start({
+			target: document.querySelector('[data-hydrate="1kim8w4"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "ignore",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-1dee0029.js"),
+						import("/_app/pages/index.svelte-12a16d76.js")
+				],
+				params: {},
+				routeId: ""
+			}
+		});
+	</script></div>
+	</body>
 </html>
