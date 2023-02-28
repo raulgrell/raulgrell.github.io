@@ -1,3 +1,7 @@
+## Static site
+
+Powered by SvelteKit
+
 ## Running
 
 ```bash
